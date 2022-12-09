@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "void:flat_lush_caves_a_layer_1_b_main"
+    },
+    "places_feature": "minecraft:spore_blossom_snap_to_ceiling_feature",
+    "iterations": 0,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "y": 5
+  }
+}

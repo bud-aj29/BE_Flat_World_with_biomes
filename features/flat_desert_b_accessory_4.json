@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "void:flat_desert_b_accessory_4"
+    },
+    "places_feature": "void:void_sandstone",
+    "scatter_chance": 50,
+    "iterations": 0,
+    "x": {
+      "distribution": "triangle",
+      "extent": [ 0, 15 ]
+    },
+    "z": {
+      "distribution": "triangle",
+      "extent": [ 0, 15 ]
+    },
+    "y": 9
+  }
+}

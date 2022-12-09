@@ -1,0 +1,35 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "void:o_void_flat_placement_forest",
+      "places_feature": "void:flat_forest_c_assembly"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {"test": "has_biome_tag", "operator": "==", "value": "forest"}
+          ]
+        },
+        {
+          "all_of": [
+            {"test": "has_biome_tag", "operator": "!=", "value": "birch"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "roofed"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "taiga"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "frozen"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "mutated"}
+          ]
+        }
+      ]
+    },    
+    "distribution": {
+      "scatter_chance": 100,
+      "iterations": 1,
+      "x": 0,
+      "z": 0,
+      "y": 55
+    }
+  }
+}
