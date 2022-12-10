@@ -12,14 +12,30 @@
           "any_of": [
             {"test": "has_biome_tag", "operator": "==", "value": "dripstone_caves"}
           ]
+        },
+        {
+          "all_of": [
+            {"test": "has_biome_tag", "operator": "!=", "value": "forest"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "plains"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "savanna"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "desert"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "mesa"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "frozen"}
+          ]
         }
       ]
     },    
     "distribution": {
       "scatter_chance": 100,
-      "iterations": 1,
-      "x": 0,
-      "z": 0,
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
       "y": 55
     }
   }

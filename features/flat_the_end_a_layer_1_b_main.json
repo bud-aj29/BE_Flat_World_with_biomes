@@ -5,19 +5,10 @@
       "identifier": "void:flat_the_end_a_layer_1_b_main"
     },
     "places_feature": "void:void_end_stone_replace",
-    "iterations": "0*768",
-    "x": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "z": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "y": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 5 ],
-      "grid_offset": 3
-    }
+    "scatter_chance": 50,
+    "iterations": 0,
+    "x": 0,
+    "z": 0,
+    "y": 5
   }
 }

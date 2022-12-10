@@ -5,16 +5,10 @@
       "identifier": "void:flat_mesa_a_layer_1_a_alternate"
     },
     "places_feature": "void:void_stained_hardened_clay_yellow_replace",
-    "scatter_chance": 25,
-    "iterations": "1*256",
-    "x": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "z": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "y": 8
+    "scatter_chance": 33,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": 6
   }
 }

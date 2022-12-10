@@ -5,16 +5,10 @@
       "identifier": "void:flat_ice_plains_spikes_b_accessory_2"
     },
     "places_feature": "void:void_snow_layer",
-    "scatter_chance": 100,
-    "iterations": 50,
-    "x": {
-      "distribution": "uniform",
-      "extent": [ 0, 16 ]
-    },
-    "z": {
-      "distribution": "uniform",
-      "extent": [ 0, 16 ]
-    },
+    "scatter_chance": 0.5,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
     "y": 9
   }
 }

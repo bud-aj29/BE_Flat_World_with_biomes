@@ -18,9 +18,15 @@
     },    
     "distribution": {
       "scatter_chance": 100,
-      "iterations": 1,
-      "x": 0,
-      "z": 0,
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
       "y": 55
     }
   }

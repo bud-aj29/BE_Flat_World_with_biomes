@@ -4,16 +4,11 @@
     "description": {
       "identifier": "void:flat_snowy_slopes_a_layer_2_b_main"
     },
-    "places_feature": "void:void_dirt",
-    "iterations": "0*256",
-    "x": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "z": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
+    "places_feature": "void:void_powder_snow_replace",
+    "scatter_chance": 10,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
     "y": 6
   }
 }

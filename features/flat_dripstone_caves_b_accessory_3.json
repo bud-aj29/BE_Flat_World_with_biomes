@@ -5,16 +5,10 @@
       "identifier": "void:flat_dripstone_caves_b_accessory_3"
     },
     "places_feature": "minecraft:dripstone_cluster_feature",
-    "scatter_chance": 100,
-    "iterations": 2,
-    "x": {
-      "distribution": "triangle",
-      "extent": [ 0, 15 ]
-    },
-    "z": {
-      "distribution": "triangle",
-      "extent": [ 0, 15 ]
-    },
+    "scatter_chance": 1,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
     "y": 11
   }
 }

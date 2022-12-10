@@ -5,16 +5,10 @@
       "identifier": "void:flat_snowy_slopes_b_accessory_1"
     },
     "places_feature": "void:void_snow_tree",
-    "scatter_chance": 100,
+    "scatter_chance": 0.5,
     "iterations": 1,
-    "x": {
-      "distribution": "triangle",
-      "extent": [ 0, 15 ]
-    },
-    "z": {
-      "distribution": "triangle",
-      "extent": [ 0, 15 ]
-    },
+    "x": 0,
+    "z": 0,
     "y": 9
   }
 }

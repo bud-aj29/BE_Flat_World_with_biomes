@@ -5,15 +5,15 @@
       "identifier": "void:flat_hell_b_accessory_1"
     },
     "places_feature": "void:void_glowstone",
-    "scatter_chance": 10,
-    "iterations": 15,
+    "scatter_chance": 0.01,
+    "iterations": 5,
     "x": {
       "distribution": "triangle",
-      "extent": [ 0, 15 ]
+      "extent": [ 0, 5 ]
     },
     "z": {
       "distribution": "triangle",
-      "extent": [ 0, 15 ]
+      "extent": [ 0, 5 ]
     },
     "y": {
       "distribution": "triangle",

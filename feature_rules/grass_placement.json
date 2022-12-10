@@ -6,7 +6,7 @@
       "places_feature": "flat:grass"
     },
     "conditions": {
-      "placement_pass": "sky_pass",
+      "placement_pass": "after_sky_pass",
       "minecraft:biome_filter": [
         {
           "test": "has_biome_tag", "operator": "!=", "value": "the_end",

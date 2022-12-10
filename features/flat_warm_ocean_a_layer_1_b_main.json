@@ -4,20 +4,11 @@
     "description": {
       "identifier": "void:flat_warm_ocean_a_layer_1_b_main"
     },
-    "places_feature": "void:void_sandstone_replace",
-    "iterations": "0*768",
-    "x": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "z": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "y": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 5 ],
-      "grid_offset": 3
-    }
+    "places_feature": "minecraft:seagrass_feature",
+    "scatter_chance": 0.05,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": 8
   }
 }

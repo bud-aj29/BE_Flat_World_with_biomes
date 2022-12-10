@@ -5,16 +5,10 @@
       "identifier": "void:flat_beach_b_accessory_5"
     },
     "places_feature": "void:void_air",
-    "scatter_chance": 50,
+    "scatter_chance": 1,
     "iterations": 0,
-    "x": {
-      "distribution": "uniform",
-      "extent": [ 0, 16 ]
-    },
-    "z": {
-      "distribution": "uniform",
-      "extent": [ 0, 16 ]
-    },
+    "x": 0,
+    "z": 0,
     "y": 9
   }
 }

@@ -4,17 +4,11 @@
     "description": {
       "identifier": "void:flat_beach_a_layer_1_a_alternate"
     },
-    "places_feature": "void:void_pool_grass",
-    "scatter_chance": 100,
+    "places_feature": "void:void_dirt",
+    "scatter_chance": 50,
     "iterations": 0,
-    "x": {
-      "distribution": "uniform",
-      "extent": [ 0, 16 ]
-    },
-    "z": {
-      "distribution": "uniform",
-      "extent": [ 0, 16 ]
-    },
-    "y": 8
+    "x": 0,
+    "z": 0,
+    "y": 5
   }
 }

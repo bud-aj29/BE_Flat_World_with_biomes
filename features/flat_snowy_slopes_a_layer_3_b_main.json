@@ -6,15 +6,9 @@
     },
     "places_feature": "void:void_powder_snow_replace",
     "scatter_chance": 10,
-    "iterations": "1*256",
-    "x": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
-    "z": {
-      "distribution": "fixed_grid",
-      "extent": [ 0, 15 ]
-    },
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
     "y": 7
   }
 }
