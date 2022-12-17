@@ -2,9 +2,9 @@
   "format_version": "1.13.0",
   "minecraft:single_block_feature": {
     "description": {
-      "identifier": "flat:grass"
+      "identifier": "void:void_netherrack"
     },
-    "places_block": "minecraft:grass",
+    "places_block": "minecraft:netherrack",
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false
   }

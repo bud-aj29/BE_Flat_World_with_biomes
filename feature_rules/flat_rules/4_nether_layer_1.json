@@ -2,14 +2,14 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "flat:bedrock_placement_d",
-      "places_feature": "flat:bedrock"
+      "identifier": "void:4_nether_layer_1",
+      "places_feature": "void:void_netherrack"
     },
     "conditions": {
-      "placement_pass": "final_pass",
+      "placement_pass": "after_sky_pass",
       "minecraft:biome_filter": [
         {
-          "test": "has_biome_tag", "operator": "!=", "value": "the_end"
+          "test": "has_biome_tag", "operator": "==", "value": "nether"
         }
       ]
     },    
@@ -19,11 +19,11 @@
         "distribution": "fixed_grid",
         "extent": [ 0, 15 ]
       },
-      "y": 58,
       "z": {
         "distribution": "fixed_grid",
         "extent": [ 0, 15 ]
-      }
+      },
+      "y": 61
     }
   }
 }

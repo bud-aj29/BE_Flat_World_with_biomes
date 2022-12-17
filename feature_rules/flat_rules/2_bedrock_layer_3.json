@@ -2,11 +2,11 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "flat:bedrock_placement_a",
-      "places_feature": "flat:bedrock"
+      "identifier": "void:2_bedrock_layer_3",
+      "places_feature": "void:void_bedrock"
     },
     "conditions": {
-      "placement_pass": "final_pass",
+      "placement_pass": "after_sky_pass",
       "minecraft:biome_filter": [
         {
           "test": "has_biome_tag", "operator": "!=", "value": "the_end"
@@ -19,11 +19,11 @@
         "distribution": "fixed_grid",
         "extent": [ 0, 15 ]
       },
-      "y": 60,
       "z": {
         "distribution": "fixed_grid",
         "extent": [ 0, 15 ]
-      }
+      },
+      "y": 58
     }
   }
 }
