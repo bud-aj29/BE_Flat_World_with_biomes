@@ -3,15 +3,15 @@
 	"header": {
 		"description": "Flat world generation with biome blocks",
 		"name": "Flat_World_With_Biomes",
-		"uuid": "fe166fef-f406-43f8-b3ea-c45ab4148ed2",
-		"version": [ 0,0,3 ],
-		"min_engine_version": [ 1, 19, 30 ]
+		"uuid": "008a7c7c-de7d-4636-97c5-ccd495fcf56d",
+		"version": [ 0,0,4 ],
+		"min_engine_version": [ 1, 20, 10 ]
 	},
 	"modules": [
 		{
 			"description": "",
 			"type": "data",
-			"uuid": "19dda76a-f866-46c3-b8a4-2c322df41a92",
+			"uuid": "922b4290-1f9a-4cd6-9e99-144d9e800cc7",
 			"version": [0, 0, 1]
 		}
 	]

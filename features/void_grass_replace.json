@@ -12,7 +12,9 @@
     "may_replace": [
       "minecraft:dirt",
       "minecraft:grass",
-      "minecraft:air"
+      "minecraft:air",
+      "minecraft:dripstone_block",
+      "minecraft:stone"
     ]
   }
 }
