@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_warped_forest_a_lyr_3_a_alt"
+    },
+    "places_feature": "flt:flat_biomes/v_twisting_vines",
+    "scatter_chance": 0.1,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": "-32 + 4"
+  }
+}

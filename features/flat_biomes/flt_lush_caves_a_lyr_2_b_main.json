@@ -1,0 +1,17 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_lush_caves_a_lyr_2_b_main"
+    },
+    "places_feature": "flt:flat_biomes/v_moss_block_replace",
+    "scatter_chance": 3,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": {
+      "distribution": "triangle",
+      "extent": [ "-127 + 8", "-127 + 10" ]
+    }
+  }
+}

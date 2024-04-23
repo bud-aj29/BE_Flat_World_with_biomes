@@ -1,0 +1,23 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_hell_b_accy_1"
+    },
+    "places_feature": "flt:flat_biomes/v_glowstone",
+    "scatter_chance": 0.01,
+    "iterations": 1,
+    "x": {
+      "distribution": "triangle",
+      "extent": [ 0, 5 ]
+    },
+    "z": {
+      "distribution": "triangle",
+      "extent": [ 0, 5 ]
+    },
+    "y": {
+      "distribution": "triangle",
+      "extent": [ "-32 + 7", "-32 + 9" ]
+    }
+  }
+}

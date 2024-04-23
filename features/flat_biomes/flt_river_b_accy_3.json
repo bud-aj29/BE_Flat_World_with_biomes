@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_river_b_accy_3"
+    },
+    "places_feature": "flt:flat_biomes/v_air",
+    "scatter_chance": 1,
+    "iterations": 0,
+    "x": 0,
+    "z": 0,
+    "y": "-127 + 4"
+  }
+}

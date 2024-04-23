@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_swampland_b_accy_3"
+    },
+    "places_feature": "flt:flat_biomes/v_reeds",
+    "scatter_chance": 0.05,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": "-127 + 4"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "flt:o_v_flt_fr_ice_plains_spikes",
+      "places_feature": "flt:flat_biomes/flt_ice_plains_spikes_c_assy"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {"test": "has_biome_tag", "operator": "==", "value": "frozen"}
+          ]
+        },
+        {
+          "all_of": [
+            {"test": "has_biome_tag", "operator": "!=", "value": "ocean"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "river"},
+            {"test": "has_biome_tag", "operator": "!=", "value": "snowy_slopes"}
+          ]
+        }
+      ]
+    },    
+    "distribution": {
+      "scatter_chance": 100,
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "y": 63
+    }
+  }
+}

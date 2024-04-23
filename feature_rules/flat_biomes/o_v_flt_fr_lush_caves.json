@@ -1,0 +1,32 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "flt:o_v_flt_fr_lush_caves",
+      "places_feature": "flt:flat_biomes/flt_lush_caves_c_assy"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {"test": "has_biome_tag", "operator": "==", "value": "lush_caves"}
+          ]
+        }
+      ]
+    },    
+    "distribution": {
+      "scatter_chance": 100,
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "y": 63
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_snowy_slopes_a_lyr_3_a_alt"
+    },
+    "places_feature": "flt:flat_biomes/v_water_connect_replace",
+    "iterations": "0*256",
+    "x": {
+      "distribution": "fixed_grid",
+      "extent": [ 0, 15 ]
+    },
+    "z": {
+      "distribution": "fixed_grid",
+      "extent": [ 0, 15 ]
+    },
+    "y": 7
+  }
+}

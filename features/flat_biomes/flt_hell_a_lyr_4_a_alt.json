@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_hell_a_lyr_4_a_alt"
+    },
+    "places_feature": "flt:flat_biomes/v_lava_replace",
+    "scatter_chance": 0.05,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": "-32 + 3"
+  }
+}

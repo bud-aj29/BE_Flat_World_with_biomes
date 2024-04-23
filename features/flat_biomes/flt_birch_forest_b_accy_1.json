@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "flt:flat_biomes/flt_birch_forest_b_accy_1"
+    },
+    "places_feature": "minecraft:birch_tree_feature",
+    "scatter_chance": 0.5,
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": "-127 + 4"
+  }
+}
