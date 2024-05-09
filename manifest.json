@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Flat world generation with biome blocks",
+    "name": "Flat_World_with_biomes_v0.0.7",
+    "uuid": "edce2569-bd58-4e48-9e3c-ee0a80b5c698",
+    "version": [
+      0,
+      0,
+      7
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "2d3d755f-0929-4c4e-b785-225b03d9f2c9",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}
